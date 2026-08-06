@@ -1,5 +1,5 @@
 import React from 'react';
-import { MapPin, Mail, Phone, Code, Terminal, Cpu, Award, Globe } from 'lucide-react';
+import { MapPin, Mail, Phone, Code, Terminal, Cpu, Award, Globe, BookOpen } from 'lucide-react';
 
 export default function AboutSection({ data }) {
   const { personal } = data;
@@ -51,8 +51,18 @@ export default function AboutSection({ data }) {
                   <Award size={24} />
                 </div>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem' }}>Academic Excellence</h4>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>VIT-AP University B.Tech CSE — <strong>CGPA: 9.27</strong> (3-1 Semester)</p>
+                  <h4 style={{ fontSize: '1.1rem' }}>VIT-AP B.Tech CSE (CGPA: 9.27)</h4>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Consistently top academic performer (Currently in 3-1 Semester)</p>
+                </div>
+              </div>
+
+              <div className="glass-card" style={{ padding: '1.2rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                <div style={{ padding: '0.8rem', borderRadius: 'var(--radius-md)', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--accent-emerald)' }}>
+                  <BookOpen size={24} />
+                </div>
+                <div>
+                  <h4 style={{ fontSize: '1.1rem' }}>Intermediate 98.4% & EAMCET Rank 2919</h4>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Sri Chaitanya Junior College | State Rank 2919 in AP EAMCET</p>
                 </div>
               </div>
 
@@ -61,18 +71,8 @@ export default function AboutSection({ data }) {
                   <Code size={24} />
                 </div>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem' }}>170+ LeetCode Problems Solved</h4>
+                  <h4 style={{ fontSize: '1.1rem' }}>170+ LeetCode Solved</h4>
                   <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Consistent problem solver focusing on Data Structures & Algorithms.</p>
-                </div>
-              </div>
-
-              <div className="glass-card" style={{ padding: '1.2rem', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ padding: '0.8rem', borderRadius: 'var(--radius-md)', background: 'rgba(16, 185, 129, 0.1)', color: 'var(--accent-emerald)' }}>
-                  <Terminal size={24} />
-                </div>
-                <div>
-                  <h4 style={{ fontSize: '1.1rem' }}>Smart Security Mobile App</h4>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>1-tap mobile emergency alert app with real-time GPS location dispatch.</p>
                 </div>
               </div>
             </div>

@@ -2,10 +2,10 @@ export const defaultPortfolioData = {
   personal: {
     name: "Kode Bhuvaneswari",
     title: "Computer Science & Engineering Student | Aspiring Software & AI Developer",
-    tagline: "Driven CSE undergraduate (CGPA: 9.27) passionate about DSA, Mobile & Web App Development, Artificial Intelligence, and Software Engineering.",
+    tagline: "Driven CSE undergraduate (CGPA: 9.27 | AP EAMCET Rank: 2919) passionate about DSA, Mobile & Web App Development, Artificial Intelligence, and Software Engineering.",
     status: "Open for Internships & Software Engineering Roles",
     avatar: "/bhuvaneswari.png",
-    about: "Motivated and detail-oriented Computer Science and Engineering student at VIT-AP University with an outstanding academic record (CGPA: 9.27). Developer of the Smart Security Alert System mobile app, an emergency response mobile application enabling one-click location-based safety alerts for students. Skilled in Python, Java, C, C++, and Web/Mobile Technologies with a strong commitment to Data Structures & Algorithms (170+ LeetCode problems solved).",
+    about: "Motivated and detail-oriented Computer Science and Engineering student at VIT-AP University with an outstanding academic record (CGPA: 9.27, Intermediate: 98.4%, AP EAMCET Rank: 2919). Developer of the Smart Security Alert System mobile app, an emergency response mobile application enabling one-click location-based safety alerts for students. Skilled in Python, Java, C, C++, and Web/Mobile Technologies with a strong commitment to Data Structures & Algorithms (170+ LeetCode problems solved).",
     location: "Amaravati, Andhra Pradesh, India",
     email: "bhuvaneswari.24bce8154@vitapstudent.ac.in",
     phone: "+91 9391996347",
@@ -16,10 +16,10 @@ export const defaultPortfolioData = {
     resumeUrl: "#"
   },
   stats: [
-    { label: "LeetCode Problems Solved", value: "170+" },
+    { label: "LeetCode Solved", value: "170+" },
     { label: "Academic CGPA", value: "9.27" },
-    { label: "Current B.Tech Semester", value: "3-1" },
-    { label: "Core Languages Mastered", value: "4" }
+    { label: "AP EAMCET Rank", value: "2919" },
+    { label: "Intermediate Score", value: "98.4%" }
   ],
   skills: [
     {
@@ -82,12 +82,20 @@ export const defaultPortfolioData = {
       institution: "VIT-AP University",
       period: "Currently in 3-1 Semester",
       description: "Consistently high academic performer with a cumulative CGPA of 9.27. Active learner in Artificial Intelligence, Mobile/Software Engineering, and Advanced Data Structures."
+    },
+    {
+      id: 2,
+      degree: "Intermediate (MPC / Class 12)",
+      institution: "Sri Chaitanya Junior College",
+      period: "Score: 98.4%",
+      description: "Achieved an outstanding 98.4% in Board Examinations and secured a state-level rank of 2919 in AP EAMCET."
     }
   ],
   achievements: [
-    "Consistently solved 170+ Data Structures & Algorithms problems on LeetCode.",
-    "Maintained an exceptional academic CGPA of 9.27 at VIT-AP University.",
-    "Active learner and contributor in Mobile App & Software Development.",
+    "Secured State Rank 2919 in AP EAMCET.",
+    "Achieved 98.4% in Intermediate (Class 12) at Sri Chaitanya Junior College.",
+    "Consistently maintained an academic CGPA of 9.27 at VIT-AP University.",
+    "Solved 170+ Data Structures & Algorithms problems on LeetCode.",
     "Fluent in English (Proficient) and Telugu (Native)."
   ]
 };
