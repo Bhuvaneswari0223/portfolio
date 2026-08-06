@@ -56,7 +56,6 @@ export const defaultPortfolioData = {
       description: "A cross-platform mobile emergency response application allowing students to trigger medical, security, or urgent alerts with a single tap using dedicated mobile emergency buttons. Automatically captures mobile device GPS coordinates and student credentials to dispatch real-time notifications to university security and medical teams.",
       image: "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
       tech: ["Mobile App", "Python", "GPS Services", "Real-Time Push Alerts", "DBMS", "REST API"],
-      liveUrl: "https://github.com/Bhuvaneswari0223",
       githubUrl: "https://github.com/Bhuvaneswari0223"
     }
   ],

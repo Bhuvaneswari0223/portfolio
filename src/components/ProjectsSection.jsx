@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
-import { ExternalLink, Github, Eye } from 'lucide-react';
+import { Github, Eye } from 'lucide-react';
 
 export default function ProjectsSection({ data }) {
   const { projects } = data;
   const [selectedFilter, setSelectedFilter] = useState('All');
   const [activeModalProject, setActiveModalProject] = useState(null);
 
-  const filters = ['All', 'Web App', 'AI/ML', 'Mobile'];
+  const filters = ['All', 'Mobile', 'Web App', 'AI/ML'];
 
   const filteredProjects = selectedFilter === 'All' 
     ? projects 
@@ -19,7 +19,7 @@ export default function ProjectsSection({ data }) {
           <span className="section-badge">Portfolio Showcase</span>
           <h2 className="section-title">Featured Projects</h2>
           <p className="section-subtitle">
-            Explore recent web applications, artificial intelligence implementations, and open-source software.
+            Explore my software applications, mobile systems, and algorithms.
           </p>
         </div>
 
@@ -57,37 +57,25 @@ export default function ProjectsSection({ data }) {
                 </div>
 
                 <div className="project-links">
-                  {project.liveUrl && (
-                    <a 
-                      href={project.liveUrl} 
-                      target="_blank" 
-                      rel="noreferrer" 
-                      className="btn btn-primary" 
-                      style={{ padding: '0.5rem 1rem', fontSize: '0.85rem' }}
-                    >
-                      <ExternalLink size={14} />
-                      <span>Live Demo</span>
-                    </a>
-                  )}
                   {project.githubUrl && (
                     <a 
                       href={project.githubUrl} 
                       target="_blank" 
                       rel="noreferrer" 
-                      className="btn btn-secondary"
-                      style={{ padding: '0.5rem 1rem', fontSize: '0.85rem' }}
+                      className="btn btn-primary"
+                      style={{ padding: '0.5rem 1.2rem', fontSize: '0.9rem' }}
                     >
-                      <Github size={14} />
-                      <span>Code</span>
+                      <Github size={16} />
+                      <span>View on GitHub</span>
                     </a>
                   )}
                   <button 
                     onClick={() => setActiveModalProject(project)}
-                    className="btn btn-icon" 
-                    style={{ width: '36px', height: '36px' }}
+                    className="btn btn-secondary btn-icon" 
+                    style={{ width: '38px', height: '38px' }}
                     title="Quick Details View"
                   >
-                    <Eye size={16} />
+                    <Eye size={18} />
                   </button>
                 </div>
               </div>
@@ -129,16 +117,10 @@ export default function ProjectsSection({ data }) {
               </div>
 
               <div style={{ display: 'flex', gap: '1rem' }}>
-                {activeModalProject.liveUrl && (
-                  <a href={activeModalProject.liveUrl} target="_blank" rel="noreferrer" className="btn btn-primary">
-                    <ExternalLink size={16} />
-                    <span>Visit Live Site</span>
-                  </a>
-                )}
                 {activeModalProject.githubUrl && (
-                  <a href={activeModalProject.githubUrl} target="_blank" rel="noreferrer" className="btn btn-secondary">
-                    <Github size={16} />
-                    <span>View Repository</span>
+                  <a href={activeModalProject.githubUrl} target="_blank" rel="noreferrer" className="btn btn-primary">
+                    <Github size={18} />
+                    <span>View Repository on GitHub</span>
                   </a>
                 )}
               </div>
