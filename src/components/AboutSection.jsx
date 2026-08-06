@@ -2,7 +2,7 @@ import React from 'react';
 import { MapPin, Mail, Phone, Code, Terminal, Cpu, Award, Globe } from 'lucide-react';
 
 export default function AboutSection({ data }) {
-  const { personal, achievements } = data;
+  const { personal } = data;
 
   return (
     <section id="about" className="section">
@@ -61,7 +61,7 @@ export default function AboutSection({ data }) {
                   <Code size={24} />
                 </div>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem' }}>160+ LeetCode Problems Solved</h4>
+                  <h4 style={{ fontSize: '1.1rem' }}>170+ LeetCode Problems Solved</h4>
                   <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>Consistent problem solver focusing on Data Structures & Algorithms.</p>
                 </div>
               </div>
@@ -71,8 +71,8 @@ export default function AboutSection({ data }) {
                   <Terminal size={24} />
                 </div>
                 <div>
-                  <h4 style={{ fontSize: '1.1rem' }}>Smart Security System Project</h4>
-                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>One-click emergency alert platform with GPS location dispatch.</p>
+                  <h4 style={{ fontSize: '1.1rem' }}>Smart Security Mobile App</h4>
+                  <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)' }}>1-tap mobile emergency alert app with real-time GPS location dispatch.</p>
                 </div>
               </div>
             </div>

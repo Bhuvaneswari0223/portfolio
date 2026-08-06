@@ -5,7 +5,7 @@ export const defaultPortfolioData = {
     tagline: "Driven CSE undergraduate (CGPA: 9.27) passionate about DSA, Mobile & Web App Development, Artificial Intelligence, and Software Engineering.",
     status: "Open for Internships & Software Engineering Roles",
     avatar: "/bhuvaneswari.png",
-    about: "Motivated and detail-oriented Computer Science and Engineering student at VIT-AP University with an outstanding academic record (CGPA: 9.27). Developer of the Smart Security Alert System mobile app, an emergency response mobile application enabling one-click location-based safety alerts for students. Skilled in Python, Java, C, C++, and Web/Mobile Technologies with a strong commitment to Data Structures & Algorithms (160+ LeetCode problems solved).",
+    about: "Motivated and detail-oriented Computer Science and Engineering student at VIT-AP University with an outstanding academic record (CGPA: 9.27). Developer of the Smart Security Alert System mobile app, an emergency response mobile application enabling one-click location-based safety alerts for students. Skilled in Python, Java, C, C++, and Web/Mobile Technologies with a strong commitment to Data Structures & Algorithms (170+ LeetCode problems solved).",
     location: "Amaravati, Andhra Pradesh, India",
     email: "bhuvaneswari.24bce8154@vitapstudent.ac.in",
     phone: "+91 9391996347",
@@ -16,7 +16,7 @@ export const defaultPortfolioData = {
     resumeUrl: "#"
   },
   stats: [
-    { label: "LeetCode Problems Solved", value: "160+" },
+    { label: "LeetCode Problems Solved", value: "170+" },
     { label: "Academic CGPA", value: "9.27" },
     { label: "Current B.Tech Semester", value: "3-1" },
     { label: "Core Languages Mastered", value: "4" }
@@ -28,7 +28,7 @@ export const defaultPortfolioData = {
         { name: "Python", level: 92 },
         { name: "Java", level: 88 },
         { name: "C / C++", level: 85 },
-        { name: "Data Structures & Algorithms (160+ LeetCode)", level: 90 }
+        { name: "Data Structures & Algorithms (170+ LeetCode)", level: 92 }
       ]
     },
     {
@@ -66,7 +66,7 @@ export const defaultPortfolioData = {
       role: "LeetCode & HackerRank Problem Solver",
       company: "Competitive Programming",
       period: "2023 - Present",
-      description: "Consistently solving complex Data Structures and Algorithms problems on LeetCode (160+ Problems Solved) and HackerRank. Deepening understanding of dynamic programming, graphs, trees, and algorithmic efficiency."
+      description: "Consistently solving complex Data Structures and Algorithms problems on LeetCode (170+ Problems Solved) and HackerRank. Deepening understanding of dynamic programming, graphs, trees, and algorithmic efficiency."
     },
     {
       id: 2,
@@ -86,7 +86,7 @@ export const defaultPortfolioData = {
     }
   ],
   achievements: [
-    "Consistently solved 160+ Data Structures & Algorithms problems on LeetCode.",
+    "Consistently solved 170+ Data Structures & Algorithms problems on LeetCode.",
     "Maintained an exceptional academic CGPA of 9.27 at VIT-AP University.",
     "Active learner and contributor in Mobile App & Software Development.",
     "Fluent in English (Proficient) and Telugu (Native)."

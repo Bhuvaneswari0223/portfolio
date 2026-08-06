@@ -43,17 +43,17 @@ export default function HeroSection({ data }) {
                   target="_blank" 
                   rel="noreferrer" 
                   className="btn btn-secondary"
-                  title="LeetCode Profile (160+ Solved)"
+                  title="LeetCode Profile (170+ Solved)"
                 >
                   <Code2 size={18} color="var(--accent-amber)" />
-                  <span>LeetCode Profile</span>
+                  <span>LeetCode (170+ Solved)</span>
                 </a>
               )}
             </div>
 
             <div className="social-bar">
               {personal.leetcode && (
-                <a href={personal.leetcode} target="_blank" rel="noreferrer" className="social-link" title="LeetCode (160+ Problems Solved)">
+                <a href={personal.leetcode} target="_blank" rel="noreferrer" className="social-link" title="LeetCode (170+ Problems Solved)">
                   <Code2 size={20} />
                 </a>
               )}
